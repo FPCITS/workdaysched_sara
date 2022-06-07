@@ -37,7 +37,7 @@ var entryTime;
 
 $(".saveBtn").click(function() {
     entryText = $(this).siblings(".input").val();
-    console.log(entryText);xa
+    console.log(entryText);
     entryTime = $(this).siblings(".hour").text();
     console.log(entryTime);
     localStorage.setItem(entryTime, JSON.stringify(entryText));
