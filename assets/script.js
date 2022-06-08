@@ -91,7 +91,7 @@ function renderText() {
 
     var saveEntryText16 = JSON.parse(localStorage.getItem("4:00 pm"));
     $("#16").val("");
-    $("#17").val(saveEntryText16);
+    $("#16").val(saveEntryText16);
 
     var saveEntryText17 = JSON.parse(localStorage.getItem("5:00 pm"));
     $("#17").val("");
