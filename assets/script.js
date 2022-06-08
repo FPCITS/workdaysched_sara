@@ -60,44 +60,41 @@ renderText ();
 });
 
 function renderText() {
-    var saveEntryText9 = JSON.parse(localStorage.getItem("8:00 am"));
-    $("#9").val("");
-    $("#9").val(saveEntryText9);
-
+ 
     var saveEntryText10 = JSON.parse(localStorage.getItem("9:00 am"));
-    $("#10").val("");
-    $("#10").val(saveEntryText10);
+    $("#9").val("");
+    $("#9").val(saveEntryText10);
 
     var saveEntryText11 = JSON.parse(localStorage.getItem("10:00 am"));
-    $("#11").val("");
-    $("#11").val(saveEntryText11);
+    $("#10").val("");
+    $("#10").val(saveEntryText11);
 
     var saveEntryText12 = JSON.parse(localStorage.getItem("11:00 am"));
-    $("#12").val("");
-    $("#12").val(saveEntryText12);
+    $("#11").val("");
+    $("#11").val(saveEntryText12);
 
     var saveEntryText13 = JSON.parse(localStorage.getItem("12:00 pm"));
-    $("#13").val("");
-    $("#13").val(saveEntryText13);
+    $("#12").val("");
+    $("#12").val(saveEntryText13);
 
     var saveEntryText14 = JSON.parse(localStorage.getItem("1:00 pm"));
-    $("#14").val("");
-    $("#14").val(saveEntryText14);
+    $("#13").val("");
+    $("#13").val(saveEntryText14);
 
     var saveEntryText15 = JSON.parse(localStorage.getItem("2:00 pm"));
-    $("#15").val("");
-    $("#15").val(saveEntryText15);
+    $("#14").val("");
+    $("#14").val(saveEntryText15);
 
     var saveEntryText16 = JSON.parse(localStorage.getItem("3:00 pm"));
-    $("#16").val("");
-    $("#16").val(saveEntryText16);
+    $("#15").val("");
+    $("#15").val(saveEntryText16);
 
     var saveEntryText17 = JSON.parse(localStorage.getItem("4:00 pm"));
-    $("#17").val("");
+    $("#16").val("");
     $("#17").val(saveEntryText17);
 
     var saveEntryText18 = JSON.parse(localStorage.getItem("5:00 pm"));
-    $("#8").val("");
-    $("#8").val(saveEntryText18);
+    $("#17").val("");
+    $("#17").val(saveEntryText18);
 
 };
